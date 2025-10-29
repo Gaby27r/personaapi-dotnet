@@ -30,7 +30,7 @@ Se emplea **Entity Framework Core** como ORM y **Swagger** para exponer y probar
 ---
 
 ## Estructura del Proyecto
-´´´
+```
 personaapi-dotnet/
 │
 ├── Controllers/
@@ -58,7 +58,7 @@ personaapi-dotnet/
 ├── appsettings.json
 ├── README.md
 └── .gitignore
-´´´
+```
 ---
 
 ## Configuración del Ambiente

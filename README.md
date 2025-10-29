@@ -30,7 +30,7 @@ Se emplea **Entity Framework Core** como ORM y **Swagger** para exponer y probar
 ---
 
 ## Estructura del Proyecto
-
+´´´
 personaapi-dotnet/
 │
 ├── Controllers/
@@ -58,7 +58,7 @@ personaapi-dotnet/
 ├── appsettings.json
 ├── README.md
 └── .gitignore
-
+´´´
 ---
 
 ## Configuración del Ambiente
@@ -66,7 +66,7 @@ personaapi-dotnet/
 1. Clonar el repositorio desde GitHub:
    ```bash
    git clone https://github.com/Gaby27r/personaapi-dotnet.git
-
+   ```
 2. Abrir la solución en Visual Studio 2022.
 
 3. Verificar las dependencias NuGet:
@@ -82,6 +82,14 @@ personaapi-dotnet/
   "ConexionSQL": "Server=localhost\\SQLEXPRESS;Database=persona_db;Trusted_Connection=True;TrustServerCertificate=True;"
 }
 
-5. Ejecutar el laboratorio seleccionando el perfil HTTPS.
-Swagger se abrirá automáticamente en la dirección:
+## Compilación
+1. Abrir el proyecto en **Visual Studio 2022**.
+2. Verificar que el proyecto `personaapi-dotnet` esté configurado como proyecto de inicio.
+3. Seleccionar el perfil **https** en la barra superior.
+4. Presionar **Ctrl + F5** o el botón “Ejecutar sin depurar”.
+5. Esperar a que Visual Studio compile la solución (sin errores).
+
+## Despliegue Local
+1. Una vez compilado, el proyecto abrirá automáticamente **Swagger UI** en el navegador.
+2. Swagger se abrirá automáticamente en la dirección:
 https://localhost:7158/swagger/index.html
